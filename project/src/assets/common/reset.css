@@ -1,0 +1,72 @@
+/*css ≥ı ºªØ */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+input {
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.bt {
+    border-top: 1px solid #ccc;
+}
+
+.br {
+    border-right: 1px solid #ccc;
+}
+
+.bb {
+    border-bottom: 1px solid #ccc;
+}
+
+.bl {
+    border-left: 1px solid #ccc;
+}
